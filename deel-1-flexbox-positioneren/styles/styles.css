@@ -1,1 +1,71 @@
 /*Schrijf hier jouw CSS*/
+
+.opdracht-1 .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opdracht-2 .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.opdracht-2 .item{
+    flex-basis: 240px;
+}
+
+/* opdracht 3.
+ Waarom moet ik hier per se de flex container instellen op min height??????*/
+.opdracht-3 .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opdracht-3 .left{
+    align-self: flex-start;
+}
+.opdracht-3 .center{
+    align-self: center;
+}
+.opdracht-3 .right{
+    align-self: flex-end;
+}
+
+/* opdracht 4*/
+.opdracht-4 .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+/* opdracht 5*/
+.opdracht-5 .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-5 .item-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.opdracht-5 .item-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.opdracht-5 .item-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
