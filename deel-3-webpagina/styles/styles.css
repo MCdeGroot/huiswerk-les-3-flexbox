@@ -1,1 +1,50 @@
 /*Schrijf hier jouw css*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /*border: red 1px solid;*/
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F3D9;
+    align-items: center;
+    margin: 40px;
+    height: 100vh;
+}
+
+.info-section{
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.article-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+article{
+
+    display: flex;
+    flex-basis: 200px;
+    align-items: flex-end;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+    background-color: indianred;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+
+}
